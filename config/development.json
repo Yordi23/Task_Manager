@@ -1,0 +1,15 @@
+{
+    "server": {
+        "port":3000
+    },
+    "db":{
+        "host": "localhost",
+        "username": "postgres",
+        "password": "admin",
+        "synchronize": true
+    },
+    "jwt":{
+        "secret": "somerandomsecret433"
+    }
+
+}
