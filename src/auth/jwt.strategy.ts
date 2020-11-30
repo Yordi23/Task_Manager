@@ -8,7 +8,6 @@ import { UserRepository } from './user.repository';
 import * as config from 'config'
 
 const jwtConfig = config.get('jwt')
-console.log(jwtConfig)
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
